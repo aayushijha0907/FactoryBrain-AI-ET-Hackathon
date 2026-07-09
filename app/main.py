@@ -61,7 +61,7 @@ with st.sidebar:
     st.divider()
     
     # Optional: User info / status
-    st.caption("Logged in as: **Admin**")
+    st.caption("FactoryBrain AI v1.0")
     if st.button(" Refresh Data", use_container_width=True):
         st.rerun()
 
